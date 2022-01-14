@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formWrapper {
+    background: #4B79A1;
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    background: linear-gradient(to right, #283E51, #4B79A1);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .disp{
+        display: none;
+    }
+
+    .formBody {
+        width: 375px;
+        background-color: aliceblue;
+        padding: 0 30px 30px;
+        box-shadow: 20px 20px 50px #4B79A1,
+            -30px -30px 60px #283E51;
+        border-radius: 10px;
+
+        .titleFrom {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            font-size: 30px;
+            padding: 20px;
+            color: #444242;
+        }
+
+        .formCta {
+            display: flex;
+            border: 1px solid #1f1f11;
+            border-radius: 5px;
+            justify-content: center;
+            overflow: hidden;
+            margin-bottom: 20px;
+            button {
+                flex-grow: 1;
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+                font-size: 20px;
+                font-weight: 400;
+                letter-spacing: .4px;
+                padding: 10px 0;
+                color: #444242;
+
+                &.active {
+                    border-radius: 5px;
+                    color: white;
+                    background: linear-gradient(to right, #283E51, #4B79A1);
+                }
+            }
+        }
+
+        .loginFrom {
+            form {
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    border: 1px solid #1f1f11;
+                    border-radius: 5px;
+                    background-color: transparent;
+                    padding: 10px 20px;
+                    margin: 10px 0;
+                    font-size: 16px;
+                    color: #444242;
+                }
+
+                a{
+                    color: #283E51;
+                    text-decoration: none;
+                    font-size: 12px;
+                }
+                button{
+                    border-radius: 5px;
+                    background-color: transparent;
+                    padding: 12px 0;
+                    margin: 20px 0;
+                    font-size: 16px;
+                    color: #fff;
+                    background: linear-gradient(to right, #283E51, #4B79A1);
+                    border: 0;
+                }
+            }
+        }
+
+        .signUpFrom{
+            form {
+                display: flex;
+                flex-direction: column;
+                input {
+                    border: 1px solid #1f1f11;
+                    border-radius: 5px;
+                    background-color: transparent;
+                    padding: 10px 20px;
+                    margin: 10px 0;
+                    font-size: 16px;
+                    color: #444242;
+                }
+                
+                button{
+                    border-radius: 5px;
+                    background-color: transparent;
+                    padding: 12px 0;
+                    margin: 20px 0;
+                    font-size: 16px;
+                    color: #fff;
+                    background: linear-gradient(to right, #283E51, #4B79A1);
+                    border: 0;
+                }
+
+            }
+        }
+
+        .notAMem{
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: .7px;
+            padding-top: 10px;
+            a{
+                text-decoration: none;
+                color: #283E51;
+            }
+        }
+    }
+}

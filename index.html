@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Simple Form</title>
+</head>
+
+<body>
+    <div class="formWrapper">
+        <div class="formBody">
+            <h2 class="titleFrom">Login Form</h2>
+            <div class="formCta">
+                <button id="login" class="active">Login</button>
+                <button id="signup">SignUp</button>
+            </div>
+            <div class="loginFrom">
+                <form action="">
+                    <input type="text" name="userName" placeholder="User Name">
+                    <input type="password" name="password" placeholder="password">
+                    <a href="">Forgot Password</a>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <div class="signUpFrom disp">
+                <form action="">
+                    <input type="text" name="fullname" placeholder="Full Name">
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <input type="email" name="emailid" placeholder="Email Address">
+                    <input type="password" name="password" placeholder="password">
+                    <input type="password" name="password" placeholder="confirm password">
+                    <button type="submit">SignUp</button>
+                </form>
+            </div>
+            <p class="notAMem">Not a member? <a href="">SignUp Now</a></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.formWrapper {
+  background: #4B79A1;
+  background: -webkit-gradient(linear, left top, right top, from(#283E51), to(#4B79A1));
+  background: linear-gradient(to right, #283E51, #4B79A1);
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formWrapper .disp {
+  display: none;
+}
+
+.formWrapper .formBody {
+  width: 375px;
+  background-color: aliceblue;
+  padding: 0 30px 30px;
+  -webkit-box-shadow: 20px 20px 50px #4B79A1, -30px -30px 60px #283E51;
+          box-shadow: 20px 20px 50px #4B79A1, -30px -30px 60px #283E51;
+  border-radius: 10px;
+}
+
+.formWrapper .formBody .titleFrom {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 20px;
+  color: #444242;
+}
+
+.formWrapper .formBody .formCta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #1f1f11;
+  border-radius: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.formWrapper .formBody .formCta button {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: .4px;
+  padding: 10px 0;
+  color: #444242;
+}
+
+.formWrapper .formBody .formCta button.active {
+  border-radius: 5px;
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#283E51), to(#4B79A1));
+  background: linear-gradient(to right, #283E51, #4B79A1);
+}
+
+.formWrapper .formBody .loginFrom form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.formWrapper .formBody .loginFrom form input {
+  border: 1px solid #1f1f11;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  color: #444242;
+}
+
+.formWrapper .formBody .loginFrom form a {
+  color: #283E51;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.formWrapper .formBody .loginFrom form button {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 12px 0;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#283E51), to(#4B79A1));
+  background: linear-gradient(to right, #283E51, #4B79A1);
+  border: 0;
+}
+
+.formWrapper .formBody .signUpFrom form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.formWrapper .formBody .signUpFrom form input {
+  border: 1px solid #1f1f11;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  color: #444242;
+}
+
+.formWrapper .formBody .signUpFrom form button {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 12px 0;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#283E51), to(#4B79A1));
+  background: linear-gradient(to right, #283E51, #4B79A1);
+  border: 0;
+}
+
+.formWrapper .formBody .notAMem {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  padding-top: 10px;
+}
+
+.formWrapper .formBody .notAMem a {
+  text-decoration: none;
+  color: #283E51;
+}
+/*# sourceMappingURL=style.css.map */
